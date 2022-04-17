@@ -1,0 +1,415 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  
+  .imagen-principal {
+    
+    width: 100%;
+    height: 400px;
+  }
+
+  .busqueda {
+  
+    height: 20px;
+    padding: 25px;
+    border: 3px solid wheat;
+    border-radius: 10px;
+  }
+
+  .sub {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-secundario {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .item:hover {
+    opacity: 1;
+  }
+  .header {
+    background-color: rgba(240, 191, 163, 0.925);
+  }
+  
+  body {
+    background-color: rgba(241, 186, 149, 0.5);
+    font-family: "EB Garamond", serif;
+  }
+  
+  .menu {
+    padding: 10px 0;
+  }
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .barra {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .login {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .carrito {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .principal {
+    text-align: center;
+  }
+  
+  .fin li a {
+    text-decoration: none;
+  }
+  
+  .fin li {
+    list-style-type: none;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(240, 191, 163, 0.925);
+    padding: 20px;
+  }
+  
+  .menu-secundario {
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  .menu-compras {
+    margin-right: 50px;
+    font-size: 20px;
+  }
+  
+  .about {
+    width: 1000px;
+    height: 800px;
+    background-color: whitesmoke;
+    overflow-y: auto;
+  }
+  
+  .centrar-contenido {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .centrar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .remeras-musculosas {
+    display: flex;
+    flex-direction: row;
+    width: 9;
+  }
+  
+  .contenedor-producto {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .imagen-producto {
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .centrar-parrafo {
+    text-align: center;
+  }
+  
+  .seguinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .contact-form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: repeat(3, 1fr) 200px;
+    width: 600px;
+    gap: 10px;
+  }
+  .send {
+    padding: 10px;
+    justify-self: center;
+  }
+  
+  .log-form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 270px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .centrar-producto {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .descripcion {
+    width: 500px;
+  }
+  
+  .detalle-producto {
+    margin: 20px;
+    text-align: center;
+  }
+  
+
+}
+/* Desktop */
+@media only screen and (min-width: 601px) {
+  
+  .layout {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .sub {
+    margin: 10px;
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .busqueda {
+  
+    height: 20px;
+    padding: 25px;
+    width: 600px;
+    border: 3px solid wheat;
+    border-radius: 10px;
+  }
+
+  .imagen-principal {
+    margin: 50px;
+    width: 1000px;
+    height: 600px;
+  }
+
+  .item {
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .item:hover {
+    opacity: 1;
+  }
+
+  .header {
+    background-color: rgba(240, 191, 163, 0.925);
+  }
+  
+  body {
+    background-color: rgba(241, 186, 149, 0.5);
+    font-family: "EB Garamond", serif;
+  }
+  
+  .menu {
+    padding: 10px 0;
+  }
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .barra {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .login {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .carrito {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  
+  .principal {
+    text-align: center;
+  }
+  
+  .fin li a {
+    text-decoration: none;
+  }
+  
+  .fin li {
+    list-style-type: none;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(240, 191, 163, 0.925);
+    padding: 20px;
+  }
+  
+  .menu-secundario {
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  .menu-compras {
+    margin-right: 50px;
+    font-size: 20px;
+  }
+  
+  .about {
+    width: 1000px;
+    height: 800px;
+    background-color: whitesmoke;
+    overflow-y: auto;
+  }
+  
+  .centrar-contenido {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .centrar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .remeras-musculosas {
+    display: flex;
+    flex-direction: row;
+    width: 9;
+  }
+  
+  .contenedor-producto {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .imagen-producto {
+    width: 300px;
+  }
+  
+  .centrar-parrafo {
+    text-align: center;
+  }
+  
+  .seguinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .contact-form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: repeat(3, 1fr) 200px;
+    width: 600px;
+    gap: 10px;
+  }
+  .send {
+    padding: 10px;
+    justify-self: center;
+  }
+  
+  .log-form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 270px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .centrar-producto {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .descripcion {
+    width: 500px;
+  }
+  
+  .detalle-producto {
+    margin: 20px;
+    text-align: center;
+  }
+  
+}
+
