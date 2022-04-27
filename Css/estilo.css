@@ -119,8 +119,8 @@
   }
   
   .about {
-    width: 1000px;
-    height: 800px;
+    width: 400px;
+    height: 250px;
     background-color: whitesmoke;
     overflow-y: auto;
   }
@@ -137,6 +137,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .ubicacion {
+    width: 400px;
   }
   
   .remeras-musculosas {
