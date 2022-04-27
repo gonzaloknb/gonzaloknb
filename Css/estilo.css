@@ -172,9 +172,9 @@
   .contact-form {
     padding: 10px;
     display: grid;
-    grid-template-columns: 200px 400px;
+    grid-template-columns: 150px 300px;
     grid-template-rows: repeat(3, 1fr) 200px;
-    width: 600px;
+    width: 500px;
     gap: 10px;
   }
   .send {
