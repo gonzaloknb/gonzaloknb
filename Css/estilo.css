@@ -51,7 +51,10 @@
         background-color: #ddd;
         color: black; }
   .principal {
-    text-align: center; }
+    text-align: center;
+    padding: 20px; }
+    .principal .img-carousel {
+      height: 400px; }
   .menu-secundario {
     margin-bottom: 20px;
     display: flex;
