@@ -4,14 +4,20 @@
   box-sizing: border-box;
 }
 
+
+$nav-color: black;
+$body-color: whitesmoke;
+$main-color: rgba(240, 191, 163, 0.925);
+
+
 /* mobile */
 @media only screen and (max-width: 600px) {
   body {
-    background-color: whitesmoke;
+    background-color: $body-color;
     font-family: "EB Garamond", serif;
   }
   .header {
-    background-color: rgba(240, 191, 163, 0.925);
+    background-color: $main-color;
     .barra {
       display: flex;
       width: 100%;
@@ -44,12 +50,12 @@
       }
     }
   }
-  imagen-principal {
+  .imagen-principal {
     width: 100%;
     height: 400px;
   }
   .topnav {
-    background-color: #333;
+    background-color: $nav-color;
     overflow: hidden;
     a {
       float: left;
@@ -60,17 +66,19 @@
       font-size: 17px;
       &:hover {
         background-color: #ddd;
-        color: black;
+        color: $nav-color;
       }
     }
   }
   .principal {
     text-align: center;
     padding: 20px;
-    .img-carousel {
-      height: 400px;
-    }
   }
+  .img-carousel {
+    height: 400px;
+  }
+
+
   .menu-secundario {
     margin-bottom: 20px;
     display: flex;
@@ -117,7 +125,7 @@
   footer {
     display: flex;
     justify-content: flex-end;
-    background-color: rgba(240, 191, 163, 0.925);
+    background-color: $main-color;
     padding: 20px;
     .menu-compras {
       margin-right: 50px;
@@ -141,7 +149,7 @@
   .about {
     width: 400px;
     height: 250px;
-    background-color: whitesmoke;
+    background-color: $body-color;
     overflow-y: auto;
   }
   .centrar-contenido {
@@ -215,7 +223,7 @@
 /* Desktop */
 @media only screen and (min-width: 601px) {
   body {
-    background-color: whitesmoke;
+    background-color: $body-color;
     font-family: "EB Garamond", serif;
   }
 
@@ -224,7 +232,7 @@
     grid-template-rows: 2fr 30% 150px;
 
     .header {
-      background-color: rgba(240, 191, 163, 0.925);
+      background-color: $main-color;
 
       .barra {
         display: flex;
@@ -261,7 +269,7 @@
       }
     }
     .topnav {
-      background-color: #333;
+      background-color: $nav-color;
       overflow: hidden;
       a {
         float: left;
@@ -272,7 +280,7 @@
         font-size: 17px;
         &:hover {
           background-color: #ddd;
-          color: black;
+          color: $nav-color;
         }
       }
     }
@@ -331,7 +339,7 @@
     footer {
       display: flex;
       justify-content: flex-end;
-      background-color: rgba(240, 191, 163, 0.925);
+      background-color: $main-color;
       padding: 20px;
       .menu-compras {
         margin-right: 50px;
@@ -356,7 +364,7 @@
     .about {
       width: 1000px;
       height: 800px;
-      background-color: whitesmoke;
+      background-color: $body-color;
       overflow-y: auto;
     }
     .centrar-contenido {
@@ -420,7 +428,7 @@
   }
   .layout-pages {
     .header {
-      background-color: rgba(240, 191, 163, 0.925);
+      background-color: $main-color;
 
       .barra {
         display: flex;
@@ -457,7 +465,7 @@
       }
     }
     .topnav {
-      background-color: #333;
+      background-color: $nav-color;
       overflow: hidden;
       a {
         float: left;
@@ -468,7 +476,7 @@
         font-size: 17px;
         &:hover {
           background-color: #ddd;
-          color: black;
+          color: $nav-color;
         }
       }
     }
@@ -530,7 +538,7 @@
     footer {
       display: flex;
       justify-content: flex-end;
-      background-color: rgba(240, 191, 163, 0.925);
+      background-color: $main-color;
       padding: 20px;
       .menu-compras {
         margin-right: 50px;
@@ -555,7 +563,7 @@
     .about {
       width: 1000px;
       height: 800px;
-      background-color: whitesmoke;
+      background-color: $body-color;
       overflow-y: auto;
     }
     .centrar-contenido {

@@ -34,11 +34,11 @@
       .header .sub .carrito {
         width: 30px;
         height: 30px; }
-  imagen-principal {
+  .imagen-principal {
     width: 100%;
     height: 400px; }
   .topnav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden; }
     .topnav a {
       float: left;
@@ -53,8 +53,8 @@
   .principal {
     text-align: center;
     padding: 20px; }
-    .principal .img-carousel {
-      height: 400px; }
+  .img-carousel {
+    height: 400px; }
   .menu-secundario {
     margin-bottom: 20px;
     display: flex;
@@ -201,7 +201,7 @@
           width: 30px;
           height: 30px; }
     .layout .topnav {
-      background-color: #333;
+      background-color: black;
       overflow: hidden; }
       .layout .topnav a {
         float: left;
@@ -347,7 +347,7 @@
         width: 30px;
         height: 30px; }
   .layout-pages .topnav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden; }
     .layout-pages .topnav a {
       float: left;
