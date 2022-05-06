@@ -1,3 +1,21 @@
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(240, 191, 163, 0.925);
+  padding: 20px; }
+  footer .menu-compras {
+    margin-right: 50px;
+    font-size: 20px; }
+    footer .menu-compras .fin li {
+      list-style-type: none; }
+    footer .menu-compras .fin a {
+      text-decoration: none; }
+  footer .seguinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px; }
+
 * {
   margin: 0%;
   padding: 0%;
@@ -90,23 +108,6 @@
       background-color: #fff; }
     .float .my-float {
       margin-top: 16px; }
-  footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgba(240, 191, 163, 0.925);
-    padding: 20px; }
-    footer .menu-compras {
-      margin-right: 50px;
-      font-size: 20px; }
-      footer .menu-compras .fin li {
-        list-style-type: none; }
-      footer .menu-compras .fin a {
-        text-decoration: none; }
-    footer .seguinos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 20px; }
   .about {
     width: 400px;
     height: 250px;
@@ -253,23 +254,6 @@
         background-color: #fff; }
       .layout .float .my-float {
         margin-top: 16px; }
-    .layout footer {
-      display: flex;
-      justify-content: flex-end;
-      background-color: rgba(240, 191, 163, 0.925);
-      padding: 20px; }
-      .layout footer .menu-compras {
-        margin-right: 50px;
-        font-size: 20px; }
-        .layout footer .menu-compras .fin li {
-          list-style-type: none; }
-        .layout footer .menu-compras .fin a {
-          text-decoration: none; }
-      .layout footer .seguinos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 20px; }
     .layout .about {
       width: 1000px;
       height: 800px;
@@ -402,23 +386,6 @@
       background-color: #fff; }
     .layout-pages .float .my-float {
       margin-top: 16px; }
-  .layout-pages footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgba(240, 191, 163, 0.925);
-    padding: 20px; }
-    .layout-pages footer .menu-compras {
-      margin-right: 50px;
-      font-size: 20px; }
-      .layout-pages footer .menu-compras .fin li {
-        list-style-type: none; }
-      .layout-pages footer .menu-compras .fin a {
-        text-decoration: none; }
-    .layout-pages footer .seguinos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 20px; }
   .layout-pages .about {
     width: 1000px;
     height: 800px;

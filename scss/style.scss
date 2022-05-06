@@ -1,14 +1,11 @@
+@import "partials/footer";
+@import "partials/variables";
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
-
-$nav-color: black;
-$body-color: whitesmoke;
-$main-color: rgba(240, 191, 163, 0.925);
-
 
 /* mobile */
 @media only screen and (max-width: 600px) {
@@ -122,30 +119,7 @@ $main-color: rgba(240, 191, 163, 0.925);
       margin-top: 16px;
     }
   }
-  footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: $main-color;
-    padding: 20px;
-    .menu-compras {
-      margin-right: 50px;
-      font-size: 20px;
-      .fin {
-        li {
-          list-style-type: none;
-        }
-        a {
-          text-decoration: none;
-        }
-      }
-    }
-    .seguinos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 20px;
-    }
-  }
+
   .about {
     width: 400px;
     height: 250px;
@@ -336,30 +310,6 @@ $main-color: rgba(240, 191, 163, 0.925);
         margin-top: 16px;
       }
     }
-    footer {
-      display: flex;
-      justify-content: flex-end;
-      background-color: $main-color;
-      padding: 20px;
-      .menu-compras {
-        margin-right: 50px;
-        font-size: 20px;
-        .fin {
-          li {
-            list-style-type: none;
-          }
-          a {
-            text-decoration: none;
-          }
-        }
-      }
-      .seguinos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 20px;
-      }
-    }
 
     .about {
       width: 1000px;
@@ -533,30 +483,6 @@ $main-color: rgba(240, 191, 163, 0.925);
       }
       .my-float {
         margin-top: 16px;
-      }
-    }
-    footer {
-      display: flex;
-      justify-content: flex-end;
-      background-color: $main-color;
-      padding: 20px;
-      .menu-compras {
-        margin-right: 50px;
-        font-size: 20px;
-        .fin {
-          li {
-            list-style-type: none;
-          }
-          a {
-            text-decoration: none;
-          }
-        }
-      }
-      .seguinos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 20px;
       }
     }
 
