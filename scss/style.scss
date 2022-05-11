@@ -1,6 +1,6 @@
 @import "partials/footer";
 @import "partials/variables";
-
+@import "./mixins.scss";
 * {
   margin: 0%;
   padding: 0%;
@@ -21,9 +21,7 @@
       justify-content: space-between;
       align-items: center;
       .logo {
-        margin: 10px;
-        height: 100px;
-        width: 100px;
+       @include logo;
       }
     }
     .busqueda {
@@ -33,9 +31,7 @@
       border-radius: 10px;
     }
     .sub {
-      margin: 10px;
-      display: flex;
-      justify-content: space-between;
+      @include sub;
       .login {
         height: 30px;
         width: 30px;
@@ -215,9 +211,7 @@
         align-items: center;
 
         .logo {
-          margin: 10px;
-          height: 100px;
-          width: 100px;
+          @include logo;
         }
       }
       .busqueda {
@@ -228,9 +222,7 @@
         border-radius: 10px;
       }
       .sub {
-        margin: 10px;
-        display: flex;
-        justify-content: space-between;
+        @include sub;
 
         .login {
           height: 30px;
@@ -387,9 +379,7 @@
         align-items: center;
 
         .logo {
-          margin: 10px;
-          height: 100px;
-          width: 100px;
+          @include logo;
         }
       }
       .busqueda {
@@ -400,9 +390,7 @@
         border-radius: 10px;
       }
       .sub {
-        margin: 10px;
-        display: flex;
-        justify-content: space-between;
+        @include sub;
 
         .login {
           height: 30px;
