@@ -21,11 +21,49 @@ footer {
   padding: 0%;
   box-sizing: border-box; }
 
+h1 {
+  padding: 10px;
+  text-align: center; }
+
+.topnav {
+  background-color: black;
+  overflow: hidden; }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; }
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff; }
+  .float .my-float {
+    margin-top: 16px; }
+
 /* mobile */
 @media only screen and (max-width: 600px) {
   body {
     background-color: whitesmoke;
-    font-family: "EB Garamond", serif; }
+    font-family: 'Nanum Pen Script', cursive; }
   .header {
     background-color: rgba(240, 191, 163, 0.925); }
     .header .barra {
@@ -55,19 +93,6 @@ footer {
   .imagen-principal {
     width: 100%;
     height: 400px; }
-  .topnav {
-    background-color: black;
-    overflow: hidden; }
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px; }
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black; }
   .principal {
     text-align: center;
     padding: 20px; }
@@ -89,26 +114,8 @@ footer {
       width: 300px;
       height: 350px;
       cursor: pointer; }
-  .float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100; }
-    .float:hover {
-      text-decoration: none;
-      color: #25d366;
-      background-color: #fff; }
-    .float .my-float {
-      margin-top: 16px; }
   .about {
+    padding: 20px;
     width: 400px;
     height: 250px;
     background-color: whitesmoke;
@@ -155,6 +162,7 @@ footer {
     .centrar-producto .img-mobile {
       height: 400px; }
   .descripcion {
+    padding: 20px;
     width: 400px; }
   .detalle-producto {
     margin: 20px;
@@ -170,7 +178,7 @@ footer {
 @media only screen and (min-width: 601px) {
   body {
     background-color: whitesmoke;
-    font-family: "EB Garamond", serif; }
+    font-family: 'Cormorant Upright', serif; }
   .layout {
     display: grid;
     grid-template-rows: 2fr 30% 150px; }
@@ -201,19 +209,6 @@ footer {
         .layout .header .sub .carrito {
           width: 30px;
           height: 30px; }
-    .layout .topnav {
-      background-color: black;
-      overflow: hidden; }
-      .layout .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px; }
-        .layout .topnav a:hover {
-          background-color: #ddd;
-          color: black; }
     .layout .principal {
       padding: 20px; }
     .layout .menu-secundario {
@@ -235,25 +230,6 @@ footer {
         cursor: pointer; }
         .layout .menu-secundario .item:hover {
           opacity: 1; }
-    .layout .float {
-      position: fixed;
-      width: 60px;
-      height: 60px;
-      bottom: 40px;
-      right: 40px;
-      background-color: #25d366;
-      color: #fff;
-      border-radius: 50px;
-      text-align: center;
-      font-size: 30px;
-      box-shadow: 2px 2px 3px #999;
-      z-index: 100; }
-      .layout .float:hover {
-        text-decoration: none;
-        color: #25d366;
-        background-color: #fff; }
-      .layout .float .my-float {
-        margin-top: 16px; }
     .layout .about {
       width: 1000px;
       height: 800px;
@@ -298,6 +274,9 @@ footer {
       justify-content: center;
       align-items: center;
       flex-direction: column; }
+      .layout .centrar-producto .img-mobile {
+        height: 1000px;
+        width: 500; }
     .layout .descripcion {
       width: 500px; }
     .layout .detalle-producto {
@@ -330,19 +309,6 @@ footer {
       .layout-pages .header .sub .carrito {
         width: 30px;
         height: 30px; }
-  .layout-pages .topnav {
-    background-color: black;
-    overflow: hidden; }
-    .layout-pages .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px; }
-      .layout-pages .topnav a:hover {
-        background-color: #ddd;
-        color: black; }
   .layout-pages .principal {
     padding: 20px; }
   .layout-pages .menu-secundario {
@@ -367,26 +333,8 @@ footer {
       cursor: pointer; }
       .layout-pages .menu-secundario .item:hover {
         opacity: 1; }
-  .layout-pages .float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100; }
-    .layout-pages .float:hover {
-      text-decoration: none;
-      color: #25d366;
-      background-color: #fff; }
-    .layout-pages .float .my-float {
-      margin-top: 16px; }
   .layout-pages .about {
+    padding: 20px;
     width: 1000px;
     height: 800px;
     background-color: whitesmoke;
@@ -434,6 +382,7 @@ footer {
     align-items: center;
     flex-direction: column; }
   .layout-pages .descripcion {
+    padding: 20px;
     width: 500px; }
   .layout-pages .detalle-producto {
     margin: 20px;
