@@ -11,21 +11,12 @@ h1{
   text-align: center;
 }
 
-.topnav {
-  background-color: $nav-color;
-  overflow: hidden;
-  a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    &:hover {
-      background-color: #ddd;
-      color: $nav-color;
-    }
-  }
+a {
+color: black;
+text-decoration: none;
+&:hover {
+color: #999;
+}
 }
 .float {
   position: fixed;
@@ -87,6 +78,15 @@ h1{
       }
     }
   }
+
+  .topnav {
+    display: none;
+  }
+  
+  .nav-link {
+    color:#f2f2f2
+  }
+
   .imagen-principal {
     width: 100%;
     height: 400px;
@@ -116,7 +116,7 @@ h1{
     .item {
       padding: 20px;
       width: 300px;
-      height: 350px;
+      height: 370px;
       cursor: pointer;
     }
   }
@@ -195,7 +195,13 @@ h1{
     align-items: center;
     justify-content: space-around;
   }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background-color: rgb(210, 207, 207);
 }
+}
+
+
 
 /* Desktop */
 @media only screen and (min-width: 601px) {
@@ -241,7 +247,8 @@ h1{
         }
       }
     }
-  
+
+
     .principal {
       padding: 20px;
     }
@@ -263,7 +270,7 @@ h1{
       .item {
         padding: 20px;
         width: 300px;
-        height: 350px;
+        height: 370px;
         opacity: 0.8;
         cursor: pointer;
         &:hover {
@@ -489,4 +496,24 @@ h1{
     transform: scale(1.1);
     transition: all 0.3s ease;
   }
+
+  .navbarmob {
+    display: none;
+      }
+      .topnav {
+        background-color: $nav-color;
+        overflow: hidden;
+        a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          &:hover {
+            background-color: #ddd;
+            color: $nav-color;
+          }
+        }
+      }
 }
