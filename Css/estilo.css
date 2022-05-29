@@ -325,7 +325,7 @@ a {
       text-decoration: none; }
     .layout-pages .menu-secundario .item {
       padding: 20px;
-      width: 300px;
+      width: 400px;
       height: 350px;
       opacity: 0.8;
       cursor: pointer; }
@@ -352,6 +352,7 @@ a {
     width: 9; }
   .layout-pages .imagen-producto {
     width: 300px;
+    height: 400px;
     opacity: 0.8; }
     .layout-pages .imagen-producto:hover {
       opacity: 1; }
